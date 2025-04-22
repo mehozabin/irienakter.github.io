@@ -21,13 +21,14 @@
       /* Specific date column styling */
       .date-cell {
         width: 160px;
+        padding-bottom: 1px;
         padding-right: 30px;
         white-space: nowrap;
       }
     
       /* Optional info cell class if needed for clarity */
       .info-cell {
-        /* Add more styles here if you want */
+        padding-bottom: 1px;
       }
     </style>
     
@@ -42,8 +43,8 @@
     <!-- Header -->
     <header id="header">
       <div class="inner">
-        <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="Irien Akter" /></a>
-        <h1><strong>Irien Akter</strong><br>PhD student<br>University at Albany, SUNY</h1>
+        <a  href="#" class="image avatar"><img src="images/avatar.jpg" alt="Irien Akter" /></a>
+        <h1 ><strong>Irien Akter</strong><br>PhD student<br>University at Albany, SUNY</h1>
       </div>
     </header>
 
@@ -56,28 +57,62 @@
         <p>Motivated computer science student with a focus on data science, statistics, and machine learning, with a passion for leveraging cutting-edge technologies to solve complex problems.</p>
       </section>
 
+      <section id="cyberbullying">
+        <h2>Cyberbullying Detection Flowchart</h2>
+        <p>My research interests include Cyberbullying Detection, Social Media Analytics, 
+          Natural Language Processing (NLP), Machine Learning, Sentiment Analysis, and Data 
+          Science.</p>
+        <div class="diagram-grid">
+          <!-- Titles -->
+          <div class="title">Social Media Analytics</div>
+          <div></div>
+          <div class="title">Cyberbullying Detection</div>
+          <div class="image"><img src="images/social_analytics.jpg" alt="Social Media"></div>
+          <div class="arrow">→</div>
+          <div class="image"><img src="images/step_cyberbullying.jpg" alt="Cyberbullying"></div>
+          <div></div>
+          <div></div>
+          <div class="arrow up-down">→</div>
+          <div class="image"><img src="images/step_sentiment.jpg" alt="Sentiment"></div>
+          <div class="arrow left">→</div>
+          <div class="image"><img src="images/step_nlp.jpg" alt="NLP"></div>
+          <div class="title">Sentiment Analysis</div>
+          <div></div>
+          <div class="title">Natural Language Processing</div>
+        </div>
+        <p style="text-align: justify;"><b>Project Motivation:</b> to develop effective methodologies for detecting 
+          cyberbullying in social media platforms. By leveraging machine learning algorithms 
+          and NLP techniques, I aim to classify and identify harmful interactions and toxic 
+          behavior across different social media networks. Additionally, my research incorporates 
+          data science principles to analyze and process large-scale social media data, enabling 
+          more accurate and efficient detection models. This work seeks to contribute to a safer 
+          and more supportive online environment through automated systems for real-time 
+          monitoring and intervention.</p>
+      </section>
+     
+
       <!-- Education -->
       <section id="education">
         <h2>Education</h2>
         <table>
           <tr>
             <th class="date-cell"> Aug 24 – Present</th>
-            <td><strong>PhD in Computer Science</strong>
+            <td class="info-cell"><strong>PhD in Computer Science</strong>
             <br>University at Albany | Albany, USA
             </td>
           </tr>
           <tr>
             <th class="date-cell"> Oct 23 – Mar 23</th>
-            <td><strong>Masters in Informatics</strong>
+            <td class="info-cell"><strong>Masters in Informatics</strong>
               <br>Technical University Munich | Munich, Germany
               <br><span style="font-size: 14px;">Discontinued to pursue PhD</span>
             </td>
           </tr>
           <tr>
             <th class="date-cell"> May 17 – Mar 22</th>
-            <td><strong>Bachelor of Computer Science</strong>
+            <td class="info-cell"><strong>Bachelor of Computer Science</strong>
               <br>International Islamic University Malaysia | Gombak, Malaysia
-              <br><span style="font-size: 14px;">Thesis:</span>
+              <br><span style="font-size: 14px;">Thesis title: Mental Health Emotion Monitoring System </span>
             </td>
           </tr>
         </table>
@@ -89,19 +124,19 @@
         <table>
           <tr>
             <th class="date-cell"> Aug 24 – Present</th>
-            <td><strong>University Teaching Assistant</strong>
+            <td class="info-cell"><strong>University Teaching Assistant</strong>
             <br>Department of Computer Science, SUNY Albany | Albany, USA
             </td>
           </tr>
           <tr>
             <th class="date-cell"> Mar 22 – Sep 23</th>
-            <td><strong>University Research Assistant</strong>
+            <td class="info-cell"><strong>University Research Assistant</strong>
               <br>Department of Information and Communication Technology, IIUM | Kuala Lumpur, Malaysia
             </td>
           </tr>
           <tr>
             <th class="date-cell"> Jun 21 – Jan 22</th>
-            <td><strong>Data Engineer</strong>
+            <td class="info-cell"><strong>Data Engineer</strong>
               <br>JobTech Ltd. | Singapore, Singapore
             </td>
           </tr>
@@ -121,12 +156,12 @@
 
       <!-- Projects -->
       <section id="projects">
-        <h2>Projects</h2>
+        <h2>Previous Projects</h2>
         <ul>
-          <li><strong>Mental Health Monitoring System</strong><br>Real-time facial expression recognition using Python and .NET Core.</li>
-          <li><strong>COVID-19 Data Analysis</strong><br>Compared cases between the Philippines and other countries using statistical methods.</li>
-          <li><strong>Emotion Prediction from Text</strong><br>Applied various ML algorithms to predict emotion from text.</li>
-          <li><strong>Sentiment Analysis of Tweets</strong><br>Compared sentiment of Donald Trump and Joe Biden on Twitter.</li>
+          <li><strong>Mental Health Monitoring System</strong><br>A web platform used for mental health counseling using facial recognition algorithm.</li>
+          <li><strong>COVID-19 Data Analysis</strong><br>Performed analysis on COVID cases on the data colleceted from Asian region.</li>
+          <li><strong>Emotion Prediction from Text</strong><br>Emotion prediction from texts using ML model.</li>
+          <li><strong>Sentiment Analysis of Tweets</strong><br>Compared sentiments of people caused from the tweets of Donald Trump and Joe Biden.</li>
         </ul>
       </section>
 
@@ -135,7 +170,7 @@
         <h2>Honours, Awards & Volunteering</h2>
         <ul>
           <li><strong>Best Final Year Project</strong> – IIUM</li>
-          <li><strong>Dean's List Award</strong> – IIUM (GPA > 3.5)</li>
+          <li><strong>Dean's List Award</strong> – IIUM</li>
           <li><strong>35th Convocation Volunteer</strong> – IIUM</li>
           <li><strong>IEEE EDS Malaysia STEM Quiz Volunteer</strong> – IEEE Day 2020</li>
         </ul>
@@ -145,7 +180,7 @@
       <section id="contact">
         <h2>Contact Me</h2>
         <ul>
-          <li>Email: <a href="mailto:irien.akhter@gmail.com">irien.akhter@gmail.com</a></li>
+          <li>Email: <a href="mailto:iakter@albany.edu">iakter@albany.edu</a></li>
           <li>LinkedIn: <a href="https://www.linkedin.com/in/irien-akter-9ab431208/">Irien Akter</a></li>
           <li>Location: Albany, New York, USA</li>
         </ul>
@@ -159,7 +194,7 @@
         <ul class="icons">
           <li><a href="https://www.linkedin.com/in/irien-akter-9ab431208/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
           <li><a href="https://github.com/yourusername" class="icon brands fa-github"><span class="label">Github</span></a></li>
-          <li><a href="mailto:irien.akhter@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="mailto:iakter@albany.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
           <li>&copy; Irien Akter</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

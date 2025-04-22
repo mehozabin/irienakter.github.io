@@ -3210,5 +3210,109 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+			
 
 	}
+
+	.diagram-grid {
+		display: grid;
+		grid-template-columns: 300px 40px 300px;
+		grid-template-rows: auto auto 40px auto auto;
+		gap: 10px 20px;
+		justify-content: center;
+		background: transparent;
+		padding: 30px;
+		border-radius: 10px;
+		text-align: center;
+	  }
+	  
+	  .diagram-grid .title {
+		font-weight: bold;
+	  }
+	  
+	  .diagram-grid .image img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+		box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	  }
+	  
+	  .diagram-grid .arrow {
+		font-size: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	  .diagram-grid .arrow.left {
+		transform: rotate(180deg);
+		font-size: 40px;
+		line-height: 1.2;
+	  }
+
+	  .diagram-grid .arrow.up-down {
+
+		transform: rotate(90deg);
+		font-size: 40px;
+		line-height: 1.2;
+	  }
+	  
+	  
+
+	/*.diagram-square {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		padding: 0px;
+		background: transparent;
+		border-radius: 0px;
+		margin-bottom: 3em;
+		text-align: center;
+	  }
+	  
+	  .diagram-square .row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+	  }
+	  
+	  .diagram-square .block {
+		text-align: center;
+		width: 250px;
+	  }
+	  
+	  .diagram-square .block img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	  }
+	  
+	  /* Arrows 
+	  .diagram-square .arrow,
+	  .diagram-square .arrow-left,
+	  .diagram-square .arrow-down {
+		font-size: 40px;
+		color: #333;
+	  }
+	  .diagram-square .arrow{margin-left: -70px;}
+	  
+	  .diagram-square .arrow-left {
+		transform: scale(1);
+		margin-left: -70px;
+	  }
+	  
+	  .diagram-square .arrow-down {
+		transform: rotate(90deg);
+		margin-left: 180px;
+		margin-bottom: 60px;
+		margin-top: 0px;
+	  }
+	  
+	  /* Spacer for vertical arrow alignment 
+	  .diagram-square .empty {
+		width: 220px;
+		height: 0px;
+	  } */
+	  
